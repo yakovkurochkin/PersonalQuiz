@@ -23,7 +23,7 @@ extension ResultsViewController {
     }
     
     private func findMostPopularAnimal() -> AnimalType {
-        var mostPopularAnimals:[AnimalType: Int] = [:]
+        var mostPopularAnimals: [AnimalType: Int] = [:]
         
         var animals: [AnimalType] = []
         for answer in answers {
